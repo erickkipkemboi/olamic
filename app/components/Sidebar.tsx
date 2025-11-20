@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  Home, FileText, Package, Tag, BarChart2, Users, Heart, Shield, CreditCard, Building2, ChevronLeft,
+  Home, Package, Tag, BarChart2, Users, Heart, Shield, CreditCard, Building2, ChevronLeft,
 } from "lucide-react";
 
 export default function Sidebar() {

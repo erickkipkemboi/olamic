@@ -8,6 +8,8 @@ export default function DashboardPage() {
       <main className="flex-1 p-4 overflow-y-auto">
         <h1 className="text-2xl font-semibold mb-4">Monthly Sales - 2025</h1>
 
+
+
           <div className="grid grid-cols-3 gap-4 mb-6">
           <div className="col-span-2 bg-[#1e1e1e] p-4 rounded-xl">
             <p>Sales data grouped by month (Chart here)</p>

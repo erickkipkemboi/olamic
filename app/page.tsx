@@ -1,10 +1,12 @@
 import React from 'react'
 
+import LoginPage from './Auth/login'
 function page() {
   return (
-    <div>
-      hello pos
+    <div className='p24' >
+      <LoginPage/>
     </div>
+
   )
 }
 

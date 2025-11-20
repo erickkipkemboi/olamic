@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import {Search,Trash2,DollarSign,CreditCard,Gift,FolderPlus,Tag,Save,RefreshCw, Lock, MoreHorizontal,
-  Wrench,History,Layers,Download,LogOut,Megaphone,User,Calendar,Settings,Maximize,Power,  ArrowRight,
+  Wrench,History,Layers,Download,LogOut,Megaphone,User,Settings,Maximize,Power,  ArrowRight,
   Clock,
 } from "lucide-react";
 
@@ -81,25 +81,12 @@ export default function POSDesign() {
               <DollarSign className="h-4 w-4 mr-1" />
               Cash
             </Button>
-            <Button size="sm" className="bg-gray-700 hover:bg-gray-600">
-              <CreditCard className="h-4 w-4 mr-1" />
-              Credit
-            </Button>
-            <Button size="sm" className="bg-gray-700 hover:bg-gray-600">
-              <CreditCard className="h-4 w-4 mr-1" />
-              Debit
-            </Button>
-            <Button size="sm" className="bg-gray-700 hover:bg-gray-600">
+                <Button size="sm" className="bg-gray-700 hover:bg-gray-600">
               <Gift className="h-4 w-4 mr-1" />
               Voucher
             </Button>
-            <Button size="sm" className="bg-gray-700 hover:bg-gray-600">
-              <Gift className="h-4 w-4 mr-1" />
-              Gift
-            </Button>
-          </div>
-
-          {/* Bottom Buttons */}
+              {/* Bottom Buttons */}
+              </div>
           <div className="grid grid-cols-3 gap-2 mt-6">
             <Button
               variant="outline"
